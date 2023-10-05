@@ -1,8 +1,4 @@
-# Generated directories:
-.nyc_output/
-coverage/
-dist/
 node_modules/
+dist/
 
-# Project files:
-*.sublime-*
+.env
