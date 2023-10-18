@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node src/main.ts",
+    "start:dev": "npx ts-node src/main.ts",
+    "start": "npm run build && node dist/main.js",
     "lint": "eslint . --fix",
     "build": "npm run lint && tsc"
   },
